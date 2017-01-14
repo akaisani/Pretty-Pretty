@@ -4,17 +4,32 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-Tinder.xcscheme</key>
+		<key>GTMSessionFetcher.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-TinderTests.xcscheme</key>
+		<key>GoogleToolboxForMac.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-TinderUITests.xcscheme</key>
+		<key>JWAnimatedImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Pretty Pretty.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Pretty PrettyTests.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Pods-Pretty PrettyUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -22,17 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>15D7C697706DE9E54CDC2FE774F9E1D4</key>
+		<key>23BA9083ED0D2392A167A8AFA04427FA</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>1C2018E100A590F52C1E51D90DDDEAF3</key>
+		<key>25C03DD39799F7E5E3C184E566B9FFED</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A3F573F6AAF78CC55698ABC31FA0C58D</key>
+		<key>7D04535608058A2FABC0D16935868FB9</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A4BFFFA65A3AE92BC53FCA2F4FFCB0EA</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>DE6717C15480B625A316202A4DEBD74F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>FE393502C70DEA919136452D4FE575B4</key>
 		<dict>
 			<key>primary</key>
 			<true/>

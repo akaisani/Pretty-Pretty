@@ -10,6 +10,7 @@ import UIKit
 import Firebase
 import FBSDKCoreKit
 import FBSDKLoginKit
+import JWAnimatedImage
 
 class ViewController: UIViewController, FBSDKLoginButtonDelegate {
 
@@ -17,6 +18,7 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
 
     var activityIndicator: UIActivityIndicatorView = UIActivityIndicatorView()
 
+    @IBOutlet weak var loginBackgroundImageView: UIImageView!
     @IBOutlet weak var fbLoginPlaceholderLabel: UILabel!
 
     func startSpinner() {
@@ -28,6 +30,7 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
         activityIndicator.startAnimating()
         UIApplication.sharedApplication().beginIgnoringInteractionEvents()
     }
+    
 
     func stopSpinner() {
         activityIndicator.stopAnimating()
@@ -104,16 +107,7 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
         }
     }
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-        let FBLoginButton = FBSDKLoginButton()
-        FBLoginButton.center = fbLoginPlaceholderLabel.center
-        FBLoginButton.readPermissions = ["public_profile", "email", "user_friends"]
-        self.view.addSubview(FBLoginButton)
-        FBLoginButton.delegate = self
 
-    }
 
     func addTestDummies() {
         let imageURLS = ["http://www.7magazine.re/photo/art/grande/8602206-13559941.jpg?v=1449042307", "http://i.imgur.com/7v0CINL.jpg", "http://backgrounds4k.net/wp-content/uploads/2016/03/Selena-Gomez-free.jpg", "http://www.billboard.com/files/styles/promo_650/public/media/hailee-steinfeld-dani-brubaker-2015-billboard-650.jpg", "https://elenasquareeyes.files.wordpress.com/2015/04/1423513270_anna-kendrick-zoom.jpg", "http://www.whitegadget.com/attachments/pc-wallpapers/152050d1410521343-mila-kunis-mila-kunis-image.jpg"]
@@ -137,6 +131,20 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
 
     }
 
+// MARK:- View Setup
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        // Do any additional setup after loading the view, typically from a nib.
+        let FBLoginButton = FBSDKLoginButton()
+        FBLoginButton.center = fbLoginPlaceholderLabel.center
+        FBLoginButton.readPermissions = ["public_profile", "email", "user_friends"]
+        self.view.addSubview(FBLoginButton)
+        FBLoginButton.frame = fbLoginPlaceholderLabel.frame
+        FBLoginButton.delegate = self
+        
+    }
+
     override func viewDidAppear(animated: Bool) {
 //        do {
 //            try FIRAuth.auth()?.signOut()
@@ -154,6 +162,19 @@ class ViewController: UIViewController, FBSDKLoginButtonDelegate {
                 }
             })
         }
+    }
+    
+    override func viewWillAppear(animated: Bool) {
+        UIApplication.sharedApplication().statusBarHidden = false
+        let url = NSBundle.mainBundle().URLForResource("loginBg", withExtension: "gif")
+        let imageData = NSData(contentsOfURL: url!)
+        let image = UIImage()
+        image.AddGifFromData(imageData!)
+        let gifManager = JWAnimationManager(memoryLimit: 10)
+        loginBackgroundImageView.SetGifImage(image, manager: gifManager)
+    }
+    override func viewWillDisappear(animated: Bool) {
+        UIApplication.sharedApplication().statusBarHidden = false
     }
 
     override func didReceiveMemoryWarning() {

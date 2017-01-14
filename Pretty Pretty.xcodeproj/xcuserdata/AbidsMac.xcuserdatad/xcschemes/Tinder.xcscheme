@@ -32,8 +32,8 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A8C6CAA91D2429340023D11B"
-               BuildableName = "Pretty Pretty.xctest"
+               BlueprintIdentifier = "A86FDB7D1E23079200FED5FF"
+               BuildableName = "Pretty PrettyTests.xctest"
                BlueprintName = "Pretty PrettyTests"
                ReferencedContainer = "container:Pretty Pretty.xcodeproj">
             </BuildableReference>
@@ -42,8 +42,8 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "A8C6CAB41D2429340023D11B"
-               BuildableName = "Pretty Pretty.xctest"
+               BlueprintIdentifier = "A86FDB6F1E23078D00FED5FF"
+               BuildableName = "Pretty PrettyUITests.xctest"
                BlueprintName = "Pretty PrettyUITests"
                ReferencedContainer = "container:Pretty Pretty.xcodeproj">
             </BuildableReference>

@@ -1,0 +1,6 @@
+framework module Pods_Pretty_PrettyTests {
+  umbrella header "Pods-Pretty PrettyTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

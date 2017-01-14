@@ -7,14 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0F45DFFE2F8CA558248F0563 /* Pods_TinderUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6483FF9EA639AB15016E1B75 /* Pods_TinderUITests.framework */; };
-		4EB84C740987C88ECE48814E /* Pods_TinderTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C5E71CBED81299F032692C6 /* Pods_TinderTests.framework */; };
+		7E229AE9FBB47B3CCB5B971E /* Pods_Pretty_Pretty.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A2A7CF32C4206462F2FF7CFE /* Pods_Pretty_Pretty.framework */; };
 		A803A6711D298BC0008B55F4 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A803A6701D298BC0008B55F4 /* ChatViewController.swift */; };
 		A808C44F1D268E3E0067DB9D /* usersSwipingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A808C44E1D268E3E0067DB9D /* usersSwipingViewController.swift */; };
 		A821FF5C1D27AD370058FF8A /* imageFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = A821FF5B1D27AD370058FF8A /* imageFile.swift */; };
 		A84CDCF11D29597A00EFE0A7 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A84CDCF01D29597A00EFE0A7 /* SettingsViewController.swift */; };
 		A8527D621D265EA4002900A4 /* SignUpScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8527D611D265EA4002900A4 /* SignUpScreenViewController.swift */; };
+		A86FDB731E23078D00FED5FF /* Pretty_PrettyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86FDB721E23078D00FED5FF /* Pretty_PrettyUITests.swift */; };
+		A86FDB811E23079200FED5FF /* Pretty_PrettyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A86FDB801E23079200FED5FF /* Pretty_PrettyTests.swift */; };
 		A8AEED6A1D290B1100A5F3F8 /* 1467554254_cog.png in Resources */ = {isa = PBXBuildFile; fileRef = A8AEED691D290B1100A5F3F8 /* 1467554254_cog.png */; };
+		A8BC77071E22FD5300B959BC /* loginBg.gif in Resources */ = {isa = PBXBuildFile; fileRef = A8BC77061E22FD5300B959BC /* loginBg.gif */; };
 		A8C45E9A1D2E8094003A5A68 /* UserInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C45E991D2E8094003A5A68 /* UserInfoViewController.swift */; };
 		A8C6CA971D2429340023D11B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C6CA961D2429340023D11B /* AppDelegate.swift */; };
 		A8C6CA991D2429340023D11B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C6CA981D2429340023D11B /* ViewController.swift */; };
@@ -22,8 +24,6 @@
 		A8C6CA9F1D2429340023D11B /* Tinder.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A8C6CA9D1D2429340023D11B /* Tinder.xcdatamodeld */; };
 		A8C6CAA11D2429340023D11B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A8C6CAA01D2429340023D11B /* Assets.xcassets */; };
 		A8C6CAA41D2429340023D11B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A8C6CAA21D2429340023D11B /* LaunchScreen.storyboard */; };
-		A8C6CAAF1D2429340023D11B /* TinderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C6CAAE1D2429340023D11B /* TinderTests.swift */; };
-		A8C6CABA1D2429340023D11B /* TinderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8C6CAB91D2429340023D11B /* TinderUITests.swift */; };
 		A8C6CAC81D242D690023D11B /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A8C6CAC71D242D690023D11B /* GoogleService-Info.plist */; };
 		A8C6CACC1D24321D0023D11B /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C6CAC91D24321D0023D11B /* FBSDKCoreKit.framework */; };
 		A8C6CACD1D24321D0023D11B /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8C6CACA1D24321D0023D11B /* FBSDKLoginKit.framework */; };
@@ -31,38 +31,46 @@
 		A8E362B21D25232F0051D338 /* tongiht_background.png in Resources */ = {isa = PBXBuildFile; fileRef = A8E362B11D25232F0051D338 /* tongiht_background.png */; };
 		A8F8E26F1D28257C00C2A075 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A8F8E26E1D28257C00C2A075 /* CoreLocation.framework */; };
 		A8F8E2711D282F3E00C2A075 /* ContactsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A8F8E2701D282F3E00C2A075 /* ContactsTableViewController.swift */; };
-		BB3375FBE90EEAA11552E2A7 /* Pods_Tinder.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6F701694D0376D35D05226E /* Pods_Tinder.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		A8C6CAAB1D2429340023D11B /* PBXContainerItemProxy */ = {
+		A86FDB751E23078D00FED5FF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A8C6CA8B1D2429340023D11B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A8C6CA921D2429340023D11B;
-			remoteInfo = Tinder;
+			remoteInfo = "Pretty Pretty";
 		};
-		A8C6CAB61D2429340023D11B /* PBXContainerItemProxy */ = {
+		A86FDB831E23079200FED5FF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A8C6CA8B1D2429340023D11B /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = A8C6CA921D2429340023D11B;
-			remoteInfo = Tinder;
+			remoteInfo = "Pretty Pretty";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		0944A993421DFD3861C81A9C /* Pods-Tinder.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinder.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tinder/Pods-Tinder.debug.xcconfig"; sourceTree = "<group>"; };
-		6483FF9EA639AB15016E1B75 /* Pods_TinderUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinderUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		0DA10DE9235B103F320EE9EE /* Pods-Pretty Pretty.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pretty Pretty.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pretty Pretty/Pods-Pretty Pretty.release.xcconfig"; sourceTree = "<group>"; };
+		10C851744AB9636C1B5B83CA /* Pods-Pretty PrettyUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pretty PrettyUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pretty PrettyUITests/Pods-Pretty PrettyUITests.release.xcconfig"; sourceTree = "<group>"; };
+		118ED3B2AFFEB1FC4EF271F2 /* Pods-Pretty PrettyTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pretty PrettyTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Pretty PrettyTests/Pods-Pretty PrettyTests.release.xcconfig"; sourceTree = "<group>"; };
 		7429DABE3CD41EE174366D02 /* Pods-TinderTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TinderTests/Pods-TinderTests.release.xcconfig"; sourceTree = "<group>"; };
 		7A91DCBF0748EFB8E71AD499 /* Pods-TinderTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TinderTests/Pods-TinderTests.debug.xcconfig"; sourceTree = "<group>"; };
-		9C5E71CBED81299F032692C6 /* Pods_TinderTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TinderTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A7CF32C4206462F2FF7CFE /* Pods_Pretty_Pretty.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Pretty_Pretty.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A803A6701D298BC0008B55F4 /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		A808C44E1D268E3E0067DB9D /* usersSwipingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = usersSwipingViewController.swift; sourceTree = "<group>"; };
 		A821FF5B1D27AD370058FF8A /* imageFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = imageFile.swift; sourceTree = "<group>"; };
 		A84CDCF01D29597A00EFE0A7 /* SettingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
 		A8527D611D265EA4002900A4 /* SignUpScreenViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpScreenViewController.swift; sourceTree = "<group>"; };
+		A86FDB701E23078D00FED5FF /* Pretty PrettyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pretty PrettyUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86FDB721E23078D00FED5FF /* Pretty_PrettyUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pretty_PrettyUITests.swift; sourceTree = "<group>"; };
+		A86FDB741E23078D00FED5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A86FDB7E1E23079200FED5FF /* Pretty PrettyTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pretty PrettyTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A86FDB801E23079200FED5FF /* Pretty_PrettyTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pretty_PrettyTests.swift; sourceTree = "<group>"; };
+		A86FDB821E23079200FED5FF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8AEED691D290B1100A5F3F8 /* 1467554254_cog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1467554254_cog.png; sourceTree = "<group>"; };
+		A8BC77061E22FD5300B959BC /* loginBg.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = loginBg.gif; sourceTree = "<group>"; };
 		A8C45E991D2E8094003A5A68 /* UserInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserInfoViewController.swift; sourceTree = "<group>"; };
 		A8C6CA931D2429340023D11B /* Pretty Pretty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pretty Pretty.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A8C6CA961D2429340023D11B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -72,12 +80,6 @@
 		A8C6CAA01D2429340023D11B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A8C6CAA31D2429340023D11B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A8C6CAA51D2429340023D11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8C6CAAA1D2429340023D11B /* Pretty Pretty.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pretty Pretty.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8C6CAAE1D2429340023D11B /* TinderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderTests.swift; sourceTree = "<group>"; };
-		A8C6CAB01D2429340023D11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A8C6CAB51D2429340023D11B /* Pretty Pretty.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Pretty Pretty.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		A8C6CAB91D2429340023D11B /* TinderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinderUITests.swift; sourceTree = "<group>"; };
-		A8C6CABB1D2429340023D11B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A8C6CAC71D242D690023D11B /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		A8C6CAC91D24321D0023D11B /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKCoreKit.framework; sourceTree = "<group>"; };
 		A8C6CACA1D24321D0023D11B /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = FBSDKLoginKit.framework; sourceTree = "<group>"; };
@@ -86,37 +88,37 @@
 		A8F8E26E1D28257C00C2A075 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
 		A8F8E2701D282F3E00C2A075 /* ContactsTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactsTableViewController.swift; sourceTree = "<group>"; };
 		AF167B02EEA16F2E96B05CDE /* Pods-TinderUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TinderUITests/Pods-TinderUITests.debug.xcconfig"; sourceTree = "<group>"; };
-		D6F701694D0376D35D05226E /* Pods_Tinder.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Tinder.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B90E723334D5E2C1088945C8 /* Pods-Pretty Pretty.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pretty Pretty.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pretty Pretty/Pods-Pretty Pretty.debug.xcconfig"; sourceTree = "<group>"; };
+		DB7E46022342C48D0FA6A1EA /* Pods-Pretty PrettyTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pretty PrettyTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pretty PrettyTests/Pods-Pretty PrettyTests.debug.xcconfig"; sourceTree = "<group>"; };
+		DD4C8763D1BCCD5403572541 /* Pods-Pretty PrettyUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pretty PrettyUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Pretty PrettyUITests/Pods-Pretty PrettyUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		EA6D928BAE34A2FD1B75D67B /* Pods-TinderUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TinderUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TinderUITests/Pods-TinderUITests.release.xcconfig"; sourceTree = "<group>"; };
 		F17610A664877F3C126C4348 /* Pods-Tinder.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tinder.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tinder/Pods-Tinder.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		A86FDB6D1E23078D00FED5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86FDB7B1E23079200FED5FF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A8C6CA901D2429340023D11B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				A8F8E26F1D28257C00C2A075 /* CoreLocation.framework in Frameworks */,
 				A8C6CACE1D24321D0023D11B /* FBSDKShareKit.framework in Frameworks */,
-				BB3375FBE90EEAA11552E2A7 /* Pods_Tinder.framework in Frameworks */,
 				A8C6CACC1D24321D0023D11B /* FBSDKCoreKit.framework in Frameworks */,
 				A8C6CACD1D24321D0023D11B /* FBSDKLoginKit.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8C6CAA71D2429340023D11B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				4EB84C740987C88ECE48814E /* Pods_TinderTests.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8C6CAB21D2429340023D11B /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				0F45DFFE2F8CA558248F0563 /* Pods_TinderUITests.framework in Frameworks */,
+				7E229AE9FBB47B3CCB5B971E /* Pods_Pretty_Pretty.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,16 +134,40 @@
 				7429DABE3CD41EE174366D02 /* Pods-TinderTests.release.xcconfig */,
 				AF167B02EEA16F2E96B05CDE /* Pods-TinderUITests.debug.xcconfig */,
 				EA6D928BAE34A2FD1B75D67B /* Pods-TinderUITests.release.xcconfig */,
+				B90E723334D5E2C1088945C8 /* Pods-Pretty Pretty.debug.xcconfig */,
+				0DA10DE9235B103F320EE9EE /* Pods-Pretty Pretty.release.xcconfig */,
+				DB7E46022342C48D0FA6A1EA /* Pods-Pretty PrettyTests.debug.xcconfig */,
+				118ED3B2AFFEB1FC4EF271F2 /* Pods-Pretty PrettyTests.release.xcconfig */,
+				DD4C8763D1BCCD5403572541 /* Pods-Pretty PrettyUITests.debug.xcconfig */,
+				10C851744AB9636C1B5B83CA /* Pods-Pretty PrettyUITests.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		A86FDB711E23078D00FED5FF /* Pretty PrettyUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A86FDB721E23078D00FED5FF /* Pretty_PrettyUITests.swift */,
+				A86FDB741E23078D00FED5FF /* Info.plist */,
+			);
+			path = "Pretty PrettyUITests";
+			sourceTree = "<group>";
+		};
+		A86FDB7F1E23079200FED5FF /* Pretty PrettyTests */ = {
+			isa = PBXGroup;
+			children = (
+				A86FDB801E23079200FED5FF /* Pretty_PrettyTests.swift */,
+				A86FDB821E23079200FED5FF /* Info.plist */,
+			);
+			path = "Pretty PrettyTests";
 			sourceTree = "<group>";
 		};
 		A8C6CA8A1D2429340023D11B = {
 			isa = PBXGroup;
 			children = (
-				A8C6CA951D2429340023D11B /* Tinder */,
-				A8C6CAAD1D2429340023D11B /* TinderTests */,
-				A8C6CAB81D2429340023D11B /* TinderUITests */,
+				A8C6CA951D2429340023D11B /* Pretty Pretty */,
+				A86FDB711E23078D00FED5FF /* Pretty PrettyUITests */,
+				A86FDB7F1E23079200FED5FF /* Pretty PrettyTests */,
 				A8C6CA941D2429340023D11B /* Products */,
 				7DD536E5251E8F654A38197B /* Pods */,
 				DB9D40E091633782E8F36A4E /* Frameworks */,
@@ -152,16 +178,17 @@
 			isa = PBXGroup;
 			children = (
 				A8C6CA931D2429340023D11B /* Pretty Pretty.app */,
-				A8C6CAAA1D2429340023D11B /* Pretty Pretty.xctest */,
-				A8C6CAB51D2429340023D11B /* Pretty Pretty.xctest */,
+				A86FDB701E23078D00FED5FF /* Pretty PrettyUITests.xctest */,
+				A86FDB7E1E23079200FED5FF /* Pretty PrettyTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A8C6CA951D2429340023D11B /* Tinder */ = {
+		A8C6CA951D2429340023D11B /* Pretty Pretty */ = {
 			isa = PBXGroup;
 			children = (
 				A8E362B11D25232F0051D338 /* tongiht_background.png */,
+				A8BC77061E22FD5300B959BC /* loginBg.gif */,
 				A8C6CAC91D24321D0023D11B /* FBSDKCoreKit.framework */,
 				A8C6CACA1D24321D0023D11B /* FBSDKLoginKit.framework */,
 				A8C6CACB1D24321D0023D11B /* FBSDKShareKit.framework */,
@@ -182,34 +209,15 @@
 				A8C6CAA51D2429340023D11B /* Info.plist */,
 				A8C6CA9D1D2429340023D11B /* Tinder.xcdatamodeld */,
 			);
+			name = "Pretty Pretty";
 			path = Tinder;
-			sourceTree = "<group>";
-		};
-		A8C6CAAD1D2429340023D11B /* TinderTests */ = {
-			isa = PBXGroup;
-			children = (
-				A8C6CAAE1D2429340023D11B /* TinderTests.swift */,
-				A8C6CAB01D2429340023D11B /* Info.plist */,
-			);
-			path = TinderTests;
-			sourceTree = "<group>";
-		};
-		A8C6CAB81D2429340023D11B /* TinderUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A8C6CAB91D2429340023D11B /* TinderUITests.swift */,
-				A8C6CABB1D2429340023D11B /* Info.plist */,
-			);
-			path = TinderUITests;
 			sourceTree = "<group>";
 		};
 		DB9D40E091633782E8F36A4E /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
 				A8F8E26E1D28257C00C2A075 /* CoreLocation.framework */,
-				D6F701694D0376D35D05226E /* Pods_Tinder.framework */,
-				9C5E71CBED81299F032692C6 /* Pods_TinderTests.framework */,
-				6483FF9EA639AB15016E1B75 /* Pods_TinderUITests.framework */,
+				A2A7CF32C4206462F2FF7CFE /* Pods_Pretty_Pretty.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -217,6 +225,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		A86FDB6F1E23078D00FED5FF /* Pretty PrettyUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A86FDB771E23078D00FED5FF /* Build configuration list for PBXNativeTarget "Pretty PrettyUITests" */;
+			buildPhases = (
+				A86FDB6C1E23078D00FED5FF /* Sources */,
+				A86FDB6D1E23078D00FED5FF /* Frameworks */,
+				A86FDB6E1E23078D00FED5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A86FDB761E23078D00FED5FF /* PBXTargetDependency */,
+			);
+			name = "Pretty PrettyUITests";
+			productName = "Pretty PrettyUITests";
+			productReference = A86FDB701E23078D00FED5FF /* Pretty PrettyUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		A86FDB7D1E23079200FED5FF /* Pretty PrettyTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A86FDB851E23079200FED5FF /* Build configuration list for PBXNativeTarget "Pretty PrettyTests" */;
+			buildPhases = (
+				A86FDB7A1E23079200FED5FF /* Sources */,
+				A86FDB7B1E23079200FED5FF /* Frameworks */,
+				A86FDB7C1E23079200FED5FF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A86FDB841E23079200FED5FF /* PBXTargetDependency */,
+			);
+			name = "Pretty PrettyTests";
+			productName = "Pretty PrettyTests";
+			productReference = A86FDB7E1E23079200FED5FF /* Pretty PrettyTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		A8C6CA921D2429340023D11B /* Pretty Pretty */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = A8C6CABE1D2429340023D11B /* Build configuration list for PBXNativeTarget "Pretty Pretty" */;
@@ -237,47 +281,6 @@
 			productReference = A8C6CA931D2429340023D11B /* Pretty Pretty.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A8C6CAA91D2429340023D11B /* Pretty PrettyTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A8C6CAC11D2429340023D11B /* Build configuration list for PBXNativeTarget "Pretty PrettyTests" */;
-			buildPhases = (
-				F9E2DE8506A66BD685C70EC9 /* [CP] Check Pods Manifest.lock */,
-				A8C6CAA61D2429340023D11B /* Sources */,
-				A8C6CAA71D2429340023D11B /* Frameworks */,
-				A8C6CAA81D2429340023D11B /* Resources */,
-				CDA0E927070A0FEF1AFDC66C /* [CP] Embed Pods Frameworks */,
-				0A3CCF27C18AB0BDAD47B1F6 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A8C6CAAC1D2429340023D11B /* PBXTargetDependency */,
-			);
-			name = "Pretty PrettyTests";
-			productName = TinderTests;
-			productReference = A8C6CAAA1D2429340023D11B /* Pretty Pretty.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		A8C6CAB41D2429340023D11B /* Pretty PrettyUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A8C6CAC41D2429340023D11B /* Build configuration list for PBXNativeTarget "Pretty PrettyUITests" */;
-			buildPhases = (
-				BBCDA08253BF24BF36B6CFC6 /* [CP] Check Pods Manifest.lock */,
-				A8C6CAB11D2429340023D11B /* Sources */,
-				A8C6CAB21D2429340023D11B /* Frameworks */,
-				A8C6CAB31D2429340023D11B /* Resources */,
-				067D7F2399DBF70A65661507 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A8C6CAB71D2429340023D11B /* PBXTargetDependency */,
-			);
-			name = "Pretty PrettyUITests";
-			productName = TinderUITests;
-			productReference = A8C6CAB51D2429340023D11B /* Pretty Pretty.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -288,19 +291,19 @@
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "Abid Amirali";
 				TargetAttributes = {
+					A86FDB6F1E23078D00FED5FF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZNW8WQ3KY9;
+						TestTargetID = A8C6CA921D2429340023D11B;
+					};
+					A86FDB7D1E23079200FED5FF = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = ZNW8WQ3KY9;
+						TestTargetID = A8C6CA921D2429340023D11B;
+					};
 					A8C6CA921D2429340023D11B = {
 						CreatedOnToolsVersion = 7.3.1;
 						DevelopmentTeam = ZNW8WQ3KY9;
-					};
-					A8C6CAA91D2429340023D11B = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = ZNW8WQ3KY9;
-						TestTargetID = A8C6CA921D2429340023D11B;
-					};
-					A8C6CAB41D2429340023D11B = {
-						CreatedOnToolsVersion = 7.3.1;
-						DevelopmentTeam = ZNW8WQ3KY9;
-						TestTargetID = A8C6CA921D2429340023D11B;
 					};
 				};
 			};
@@ -318,13 +321,27 @@
 			projectRoot = "";
 			targets = (
 				A8C6CA921D2429340023D11B /* Pretty Pretty */,
-				A8C6CAA91D2429340023D11B /* Pretty PrettyTests */,
-				A8C6CAB41D2429340023D11B /* Pretty PrettyUITests */,
+				A86FDB6F1E23078D00FED5FF /* Pretty PrettyUITests */,
+				A86FDB7D1E23079200FED5FF /* Pretty PrettyTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		A86FDB6E1E23078D00FED5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86FDB7C1E23079200FED5FF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A8C6CA911D2429340023D11B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -334,57 +351,14 @@
 				A8C6CAA41D2429340023D11B /* LaunchScreen.storyboard in Resources */,
 				A8C6CAC81D242D690023D11B /* GoogleService-Info.plist in Resources */,
 				A8C6CAA11D2429340023D11B /* Assets.xcassets in Resources */,
+				A8BC77071E22FD5300B959BC /* loginBg.gif in Resources */,
 				A8C6CA9C1D2429340023D11B /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8C6CAA81D2429340023D11B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8C6CAB31D2429340023D11B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		067D7F2399DBF70A65661507 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TinderUITests/Pods-TinderUITests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		0A3CCF27C18AB0BDAD47B1F6 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TinderTests/Pods-TinderTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
 		5CB09FC0A3D39B0EF44FF162 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -397,7 +371,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		7E12AA5A9CAB4FCB7A26CA59 /* [CP] Embed Pods Frameworks */ = {
@@ -412,22 +386,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tinder/Pods-Tinder-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		BBCDA08253BF24BF36B6CFC6 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pretty Pretty/Pods-Pretty Pretty-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C83F431643183CC65A74B715 /* [CP] Copy Pods Resources */ = {
@@ -442,42 +401,28 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tinder/Pods-Tinder-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		CDA0E927070A0FEF1AFDC66C /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TinderTests/Pods-TinderTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F9E2DE8506A66BD685C70EC9 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Pretty Pretty/Pods-Pretty Pretty-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		A86FDB6C1E23078D00FED5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86FDB731E23078D00FED5FF /* Pretty_PrettyUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A86FDB7A1E23079200FED5FF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A86FDB811E23079200FED5FF /* Pretty_PrettyTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		A8C6CA8F1D2429340023D11B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -495,34 +440,18 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A8C6CAA61D2429340023D11B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A8C6CAAF1D2429340023D11B /* TinderTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A8C6CAB11D2429340023D11B /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A8C6CABA1D2429340023D11B /* TinderUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		A8C6CAAC1D2429340023D11B /* PBXTargetDependency */ = {
+		A86FDB761E23078D00FED5FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A8C6CA921D2429340023D11B /* Pretty Pretty */;
-			targetProxy = A8C6CAAB1D2429340023D11B /* PBXContainerItemProxy */;
+			targetProxy = A86FDB751E23078D00FED5FF /* PBXContainerItemProxy */;
 		};
-		A8C6CAB71D2429340023D11B /* PBXTargetDependency */ = {
+		A86FDB841E23079200FED5FF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = A8C6CA921D2429340023D11B /* Pretty Pretty */;
-			targetProxy = A8C6CAB61D2429340023D11B /* PBXContainerItemProxy */;
+			targetProxy = A86FDB831E23079200FED5FF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -546,6 +475,52 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		A86FDB781E23078D00FED5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pretty PrettyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "akaisani.Pretty-PrettyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pretty Pretty";
+			};
+			name = Debug;
+		};
+		A86FDB791E23078D00FED5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Pretty PrettyUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "akaisani.Pretty-PrettyUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Pretty Pretty";
+			};
+			name = Release;
+		};
+		A86FDB861E23079200FED5FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pretty PrettyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "akaisani.Pretty-PrettyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pretty Pretty.app/Pretty Pretty";
+			};
+			name = Debug;
+		};
+		A86FDB871E23079200FED5FF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Pretty PrettyTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "akaisani.Pretty-PrettyTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pretty Pretty.app/Pretty Pretty";
+			};
+			name = Release;
+		};
 		A8C6CABC1D2429340023D11B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -633,10 +608,11 @@
 		};
 		A8C6CABF1D2429340023D11B /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0944A993421DFD3861C81A9C /* Pods-Tinder.debug.xcconfig */;
+			baseConfigurationReference = B90E723334D5E2C1088945C8 /* Pods-Pretty Pretty.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Tinder",
@@ -646,15 +622,17 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = akaisani.Tinder;
 				PRODUCT_NAME = "Pretty Pretty";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		A8C6CAC01D2429340023D11B /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F17610A664877F3C126C4348 /* Pods-Tinder.release.xcconfig */;
+			baseConfigurationReference = 0DA10DE9235B103F320EE9EE /* Pods-Pretty Pretty.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Tinder",
@@ -664,62 +642,29 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = akaisani.Tinder;
 				PRODUCT_NAME = "Pretty Pretty";
-			};
-			name = Release;
-		};
-		A8C6CAC21D2429340023D11B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7A91DCBF0748EFB8E71AD499 /* Pods-TinderTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TinderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = akaisani.TinderTests;
-				PRODUCT_NAME = "Pretty Pretty";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pretty Pretty.app/Pretty Pretty";
-			};
-			name = Debug;
-		};
-		A8C6CAC31D2429340023D11B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7429DABE3CD41EE174366D02 /* Pods-TinderTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = TinderTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = akaisani.TinderTests;
-				PRODUCT_NAME = "Pretty Pretty";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Pretty Pretty.app/Pretty Pretty";
-			};
-			name = Release;
-		};
-		A8C6CAC51D2429340023D11B /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AF167B02EEA16F2E96B05CDE /* Pods-TinderUITests.debug.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = TinderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = akaisani.TinderUITests;
-				PRODUCT_NAME = "Pretty Pretty";
-				TEST_TARGET_NAME = Tinder;
-			};
-			name = Debug;
-		};
-		A8C6CAC61D2429340023D11B /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EA6D928BAE34A2FD1B75D67B /* Pods-TinderUITests.release.xcconfig */;
-			buildSettings = {
-				INFOPLIST_FILE = TinderUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = akaisani.TinderUITests;
-				PRODUCT_NAME = "Pretty Pretty";
-				TEST_TARGET_NAME = Tinder;
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		A86FDB771E23078D00FED5FF /* Build configuration list for PBXNativeTarget "Pretty PrettyUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86FDB781E23078D00FED5FF /* Debug */,
+				A86FDB791E23078D00FED5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A86FDB851E23079200FED5FF /* Build configuration list for PBXNativeTarget "Pretty PrettyTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A86FDB861E23079200FED5FF /* Debug */,
+				A86FDB871E23079200FED5FF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		A8C6CA8E1D2429340023D11B /* Build configuration list for PBXProject "Pretty Pretty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -734,24 +679,6 @@
 			buildConfigurations = (
 				A8C6CABF1D2429340023D11B /* Debug */,
 				A8C6CAC01D2429340023D11B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A8C6CAC11D2429340023D11B /* Build configuration list for PBXNativeTarget "Pretty PrettyTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A8C6CAC21D2429340023D11B /* Debug */,
-				A8C6CAC31D2429340023D11B /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A8C6CAC41D2429340023D11B /* Build configuration list for PBXNativeTarget "Pretty PrettyUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A8C6CAC51D2429340023D11B /* Debug */,
-				A8C6CAC61D2429340023D11B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

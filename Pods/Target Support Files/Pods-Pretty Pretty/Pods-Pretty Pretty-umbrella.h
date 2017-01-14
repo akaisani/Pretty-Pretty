@@ -1,0 +1,8 @@
+#ifdef __OBJC__
+#import <UIKit/UIKit.h>
+#endif
+
+
+FOUNDATION_EXPORT double Pods_Pretty_PrettyVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_Pretty_PrettyVersionString[];
+
